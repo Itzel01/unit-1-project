@@ -70,6 +70,7 @@ nav .nav-link.active {
 
 .title {
     color: #007BFF;
+    border-bottom: 1px solid white;
 }
 
 footer {
