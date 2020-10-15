@@ -1,4 +1,8 @@
-.ccontainer{
+.text{
+    width: 80%;
+    margin: auto;
+}
+.image{
     width: 80%;
     margin: auto;
 }
@@ -6,8 +10,17 @@
 
 @media only screen and (min-width: 800px){
     .container{
-        display: flex;
-        flex-direction: row;
-    }
+    display: flex;
+    flex-direction: row;
+}
+    .text{
+    width: 75%;
+    margin: auto;
+}
+    .image{
+    width: 25%;
+    margin: auto;
+}
+    
     
 }
