@@ -7,19 +7,21 @@
     margin: auto;
 }
  
-
+img{
+    width: 100%;
+}
 @media only screen and (min-width: 800px){
     .container{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
     .text{
-    width: 75%;
-    margin: auto;
+    width: 70%;
+    margin: 15px;
 }
     .image{
-    width: 25%;
-    margin: auto;
+    width: 30%;
 }
     
     
