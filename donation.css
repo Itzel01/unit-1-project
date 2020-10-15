@@ -5,11 +5,19 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom:2%;
-
+}
+.carousel-item img{
+    
+    height:28rem;
+    object-fit: contain;
 }
 .imgmyth{
-    max-height:100%;
-    max-width:100%;
+        display: block;
+        height: auto;
+        max-width: 100%;
+        line-height: 1;
+        margin:auto;
+        width: 100%;
 }
 .imgtax{
        display: block;
@@ -98,9 +106,13 @@ footer{
     background-size:cover;
 }
 .dontext{
-    max-width:50%;
-    max-height:30;
+    max-width:45%;
+    max-height:30%;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
+    font-weight:bold;
+}
+.helping{
+    text-align:center;
 }
