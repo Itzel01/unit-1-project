@@ -1,3 +1,8 @@
+body{
+    background-color: black;
+    color: white;
+}
+
 .title-banner {
     height: 3em;
     font-size: 4em;
@@ -42,6 +47,13 @@ h1{
 .stereotypes{
     width: 80%;
     margin: auto;
+}
+
+.bigBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 500px;
 }
 
 @media (min-width: 800px){
