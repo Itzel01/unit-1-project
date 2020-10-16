@@ -1,3 +1,27 @@
+@keyframes fadeSlideFromBottom {
+    0% {
+        position: absolute;
+        transform: translateY(1000px);
+        opacity: 0
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.container, .footer-wrapper {
+    animation-name: fadeSlideFromBottom;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+main, footer {
+    position:relative;
+    overflow: hidden;
+}
+
 .text{
     width: 80%;
     margin: auto;
@@ -10,25 +34,26 @@
 .image{
     width: 80%;
     margin: auto;
-    border: 2px solid #007BFF;
+    border: 3px solid #961D7A;
 }
  
 img{
     width: 100%;
 }
+
 @media only screen and (min-width: 800px){
-    .container{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-}
-    .text{
-    width: 70%;
-    margin: 15px;
-}
-    .image{
-    width: 30%;
-}
-    
-    
+    .container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+        .text {
+        width: 70%;
+        margin: 15px;
+    }
+        .image {
+        width: 30%;
+    }
+        
+        
 }
