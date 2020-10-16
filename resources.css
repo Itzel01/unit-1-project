@@ -19,7 +19,7 @@
 
 #lawyers, #orgs {
     z-index: 0;
-    animation: slideInFromLeft 1.5s;
+    animation: slideInFromLeft 2s;
 }
 
 .carousel-title {
