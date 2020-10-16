@@ -1,5 +1,25 @@
+@keyframes slideInFromRight{
+    0% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slideInFromLeft{
+    0% {
+        transform: translateX(1000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
 #lawyers, #orgs {
     z-index: 0;
+    animation: slideInFromLeft 1.5s;
 }
 
 .carousel-title {
@@ -10,6 +30,7 @@
     padding: 1.25% 0;
     font-weight: normal;
     border-bottom: none!important;
+    animation: slideInFromRight 1.5s;
 }
 
 .carousel-indicators {
@@ -102,6 +123,7 @@ section .card {
     }
     
     .desktop-card-scroll {
+        animation: slideInFromLeft 1.5s; 
         width: 95%;
         padding: 1.25% 0;
         display: flex!important;

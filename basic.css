@@ -61,11 +61,14 @@ nav .nav-link.active {
     align-items: center;
     font-size: 1.5em;
     font-weight: 200;
+    border-radius: 0px!important;
+    transition: background-color 1s;
 }
 
 .nav-item a:hover{
     background-color: white;
     border-radius: 0px;
+    transition: background-color 1s;
 }
 
 .title {
@@ -73,7 +76,7 @@ nav .nav-link.active {
     border-bottom: 1px solid white;
 }
 
-footer {
+.footer-wrapper {
     border-top: 1px white solid;
     padding: 1em;
     height: 8.5em;
