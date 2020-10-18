@@ -1,3 +1,22 @@
+@keyframes colors {
+    0% {
+        background-color: #fff;
+    }
+    25% {
+        background-color: #57abff;
+    }
+    50% {
+        background-color: #8237e4;
+    }
+    75% {
+        background-color: #ff7de1;
+    }
+    100% {
+        background-color: #fff;
+    }
+}
+
+
 body {
     background-color: black!important;
     color: white!important;
@@ -30,9 +49,13 @@ header {
     background-size: cover;
 }
 
+.title-banner div::before {
+    animation: colors 30s linear 0s infinite;
+} 
+
 .title-banner div {
     padding: 0.3% 5%;
-} 
+}
 
 nav {
     font-weight: normal;
